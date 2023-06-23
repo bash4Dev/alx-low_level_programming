@@ -1,18 +1,22 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
- * Description: print_alphabet in lowercase 
+ * Description - print_alphabet in lowercase 
  *
- * Return: always return 0;
- *
+ * Return: Always 0.
  */
+
 void print_alphabet(void)
 {
-	char i;
+	char alpha = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (alpha = "a"; alpha <= 'z'; alpha++)
 	{
-		_putchar(i);
+		_putchar (alpha);
+
 	}
-	_putchar('\n');
+	_putchar ('\n');
+
+  return (0);
+
 }
