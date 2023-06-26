@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Description - print_alphabet in lowercase 
+ * print_alphabet - check the code for ALX School students.
  *
  * Return: Always 0.
  */
@@ -10,13 +10,12 @@ void print_alphabet(void)
 {
 	char alpha = 'a';
 
-	for (alpha = "a"; alpha <= 'z'; alpha++)
+	while (alpha <= 'z')
 	{
 		_putchar (alpha);
+		alpha++;
 
 	}
 	_putchar ('\n');
-
-  return (0);
 
 }

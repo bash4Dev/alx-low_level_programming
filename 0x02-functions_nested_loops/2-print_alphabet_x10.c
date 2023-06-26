@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * Description - print_alphabet_x10 ten times 
+ * print_alphabet_x10 - func
  *
  * Return - 0
  */
 void print_alphabet_x10(void)
 {
-int n = 0;
-char alp = 'a';
-
-for(n = 0; n <= 9; n++) {
-  for(alp = 'a'; alp <= 'z'; alp++) {
-      _putchar(alp);
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
 }
- _putchar(\n);
-return 0;
+_putchar('\n');
+b++;
 }
 }
