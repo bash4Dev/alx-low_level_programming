@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * free_listint - Frees a list.
- * @head: Node list.
+ * free_listint2 - To free a list.
+ *
+ * @head: First node a list address.
  **/
 
 void free_listint2(listint_t **head)
